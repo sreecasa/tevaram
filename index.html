@@ -24,8 +24,9 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     .download {
-      display: block;
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
       margin: 20px 0;
     }
     .download a {
@@ -45,6 +46,11 @@
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+    p.fallback {
+      text-align: center;
+      font-style: italic;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -54,12 +60,17 @@
     
     <div class="download">
       <a href="tevaram.pdf" download>📥 Download Ebook</a>
+      <a href="tevaram.pdf" target="_blank">📖 View Online</a>
     </div>
     
     <!-- Embedded PDF viewer -->
     <div style="margin:20px auto; max-width:800px;">
       <embed src="tevaram.pdf" type="application/pdf" />
     </div>
+
+    <p class="fallback">
+      If the embedded viewer doesn’t appear, use the “View Online” link above.
+    </p>
   </div>
 </body>
 </html>
