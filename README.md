@@ -1,0 +1,1 @@
+Thevaram (or Tevaram) is a collection of approximately 797 sacred Tamil hymns dedicated to Lord Shiva, composed around the 7th-8th centuries by the three prominent Nayanmar saints: Thirugnana Sambandar, Thirunavukkarasar (Appar), and Sundarar. These hymns constitute the first seven volumes of the Tirumurai, a twelve-volume anthology of Shaiva devotional poetry
